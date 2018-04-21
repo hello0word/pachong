@@ -47,10 +47,10 @@ def process():
     bsObj = BeautifulSoup(html.read())
 
     print(bsObj.h1)
-    conn = sqlite3.connect("test.db")
-    cursor = conn.cursor()
+    #conn = sqlite3.connect("test.db")
+    #cursor = conn.cursor()
 
-    cursor.execute("create table user (id varchar(20) primary key, name varchar(20))")
+    #cursor.execute("create table user (id varchar(20) primary key, name varchar(20))")
 
 
 def test():
